@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import usama from '../features/counter/BookSlice';
+// import usama2 from '../features/counter/reducer2';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    counter: usama,
+  
   },
 });
