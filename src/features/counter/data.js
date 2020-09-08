@@ -50,6 +50,29 @@ export const data =     [
   {  
     id: 3,
     titl: "Eloquent JavaScript, Second Edition",
+    subtitle: "A Modern Introduction to Programming",
+    count:1,
+    quantity:1,
+    total:10,
+    price:10,author: "Marijn Havereke"  ,
+    description: "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+  
+    published: "2014-12-14T00:00:00.000Z",
+   publishr: "No Starch Press",
+   pages:472,
+   AddCartCondition:false,
+   imagepath:process.env.PUBLIC_URL + '/book6.jpg',
+   purchse:false,
+   count:1,
+   quantity:1,
+   total:10,
+   price:10,
+   desription: "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+   website:"http://eloquentjavascript.ne/"
+  },
+  {  
+    id: 4,
+    titl: "Eloquent JavaScript, Second Edition",
     subtil: "A Modern Introduction to Programming",
     count:1,
     quantity:1,
@@ -71,7 +94,7 @@ export const data =     [
    website:"http://eloquentjavascript.ne/"
 },
 {  
-  id: 4,
+  id: 5,
   titl: "Eloquent JavaScript, Second Edition",
   subtil: "A Modern Introduction to Programming",
   count:1,
@@ -94,9 +117,32 @@ urchse:false,
  desription: "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
  website:"http://eloquentjavascript.ne/"
 },
-
 {  
-  id: 5,
+  id: 6,
+  titl: "Eloquent JavaScript, Second Edition",
+  subtil: "A Modern Introduction to Programming",
+  count:1,
+  quantity:1,
+  total:10,
+  price:10,
+  description: "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who once found himself in the same position.",
+
+  author: "Marijn Havereke" ,    
+     published: "2014-12-14T00:00:00.000Z",
+ publishr: "No Starch Press",
+ pages:472,
+ AddCartCondition:false,
+ imagepath:process.env.PUBLIC_URL + '/book6.jpg',
+ purchse:false,
+ count:1,
+ quantity:1,
+ total:10,
+ price:10,
+ desription: "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+ website:"http://eloquentjavascript.ne/"
+},
+{  
+  id: 7,
   titl: "Eloquent JavaScript, Second Edition",
   subtil: "A Modern Introduction to Programming",
   count:1,
@@ -120,7 +166,7 @@ urchse:false,
 }
 ,
 {  
-  id: 6,
+  id: 8,
   titl: "Eloquent JavaScript, Second Edition",
   subtitle: "A Modern Introduction to Programming",
   count:1,
@@ -144,7 +190,7 @@ urchse:false,
 }
     ,
       {
-        id: 7,
+        id: 9,
         titl: "Learning JavaScript Design Patterns",
         subtitle: "A JavaScript and jQuery Developer's Guide",
        author: "Addy Osmani",
@@ -168,7 +214,33 @@ urchse:false,
         website: "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
       },
       {
-        id: 8,
+        id: 10,
+        titl: "Learning JavaScript Design Patterns",
+        subtitle: "A JavaScript and jQuery Developer's Guide",
+       author: "Addy Osmani",
+       count:1,
+       quantity:1,
+       total:10,
+       price:10,
+       description: "Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft’s ASP.NET Web API framework. In the process, you’ll learn how design and implement a real-world Web API.",
+
+       blished: "2012-07-01T00:00:00.000Z",
+        publisher: "O'Reilly Media",
+        pages: 254,
+        AddCartCondition:false,
+        imagepath:process.env.PUBLIC_URL + '/book7.jpg',
+        purchse:false,
+        count:1,
+        quantity:1,
+        total:10,
+        price:10,
+        description: "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-date with the latest best practices, this book is for you.",
+        website: "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
+      }
+      
+      ,
+      {
+        id: 11,
         titl: "Speaking JavaScript",
         subtitle: "An In-Depth Guide o Programmers",
         author: "Axel Rauschmayer",
@@ -193,7 +265,7 @@ urchse:false,
       website: "http://speakigjs.com"
       },
       {
-        id: 9,
+        id: 12,
         titl: "Programming JavaScript Applications",
         subtitle: "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
         author :"Eric Elliott",

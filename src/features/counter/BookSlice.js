@@ -138,13 +138,24 @@ const BookSlice = createSlice({
 
 
           // Update Data on book_data****************************************
+state.book_data.map((item1)=>{
+if(item1.id==item.id){
+console.log("updatataaaaaaaaaaaaaaaaate")
+let BookData=[...state.book_data]
+let tempBookData=BookData
+let objIndex=tempBookData.indexOf(item1)
+let objectbookData=tempBookData[objIndex]
+objectbookData.AddCartCondition=false
+state.book_data=tempBookData
+}
+})
 
-
-          let bookData = [...state.book_data]
-          let tempbookData = bookData
-          let UpdatetempDataObject = tempbookData[index]
-          UpdatetempDataObject.AddCartCondition = false
-
+//           let bookData = state.book_data
+//           let  = bookData
+//          let objindex= tempbookData.indexOf(item)
+//           // let UpdatetempDataObject = tempbookData[objindex]
+//           // UpdatetempDataObject.AddCartCondition = false
+// console.log(objindex,"KKKKLLK")
           arr = tempDeleteToCart.filter(function (item) {
 
 
@@ -152,8 +163,8 @@ const BookSlice = createSlice({
 
           })
           state.AddToCartData = arr
-          state.book_data = tempbookData
-
+          
+// state.book_data=bookData
           return { ...state }
 
         }
